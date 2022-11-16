@@ -1,0 +1,35 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 70%;
+    background-color: rgb(50, 205, 53);
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+.todoItem_done {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 70%;
+    background-color: rgb(128, 0, 255);
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.toDo { 
+    font-weight: "bold";
+    font-size: "1.5rem"; 
+}
+.toDo_done {
+    font-weight: "bold";
+    font-size: "1.5rem"; 
+    text-decoration: line-through;
+
+}
+
+.todoItem__action {
+    margin: 0 1rem;
+}
